@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6 {
   border: 2px dotted #cccccc;
   margin: 1em 0;
   padding: 0.5em 0;
-  background-color: #f0f0f0;
+  background-color: #F2F2F2;
 }
 
 #TableOfContents ul {
@@ -221,6 +221,7 @@ div.panel-body {
   border: none;
   font-size: 16px;
 }
+
 
 .post-entry {
   width: 100%;

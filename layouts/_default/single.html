@@ -1,11 +1,13 @@
 {{ define "main" }}
   <div class="container" role="main">
     <article class="article" class="blog-post">
-      <aside>
-        {{ .TableOfContents }}
-      </aside>
+      {{ if .Params.include_toc }}
+        <aside>
+          {{ .TableOfContents }}
+        </aside>
+      {{ end }}
 
-      {{ partial "toc.html" . }}
+      {{ .Content }}
 
       {{ if .Params.tags }}
         <div class="blog-tags">
